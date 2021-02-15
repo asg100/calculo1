@@ -1,0 +1,39 @@
+---
+title: "Cálculo diferencial e integral I"
+---
+
+# ¡Bienvenidos!
+
+En esta página encontrarán toda la información necesaria acerca del curso:
+
+ - Notas
+ - Enlaces a los vídeos
+ - Acceso al Foro
+ - Tareas
+ - Calificaciones
+ - Temario
+ - Referencias
+
+
+# Avisos
+
+ * Aquí aparecerán las actualizaciones que se hagan a la página.
+ * Aviso de ejemplo: vea cómo trabajaremos en el [Plan de trabajo](plan.html)
+
+
+# Quienes somos
+
+```{r echo = FALSE}
+library(kableExtra)
+tbl_img <- data.frame(
+  fotos = "",
+  nombre = c("Nombre1", "Nombre2"),
+  correo = c("correo1@prueba", "correo2@prueba")
+)
+tbl_img %>%
+  kbl(booktabs = T) %>%
+  kable_paper(full_width = F) %>%
+  column_spec(1, image = "images/persona.png")
+```
+
+

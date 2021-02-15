@@ -1,0 +1,23 @@
+name: "Cálculo I"
+output_dir: docs
+navbar:
+  title: "Cálculo I"
+  left:
+    - text: "Inicio"
+      href: index.html
+    - text: "Evaluación"
+      href: evaluacion.html
+    - text: "Notas"
+      href: https://calculos.github.io/
+    - text: "Plan de trabajo"
+      href: plan.html
+    - text: "Tareas"
+      href: tareas.html
+    - text: "Temario"
+      href: archivos/c4-temario.pdf
+    - text: "Referencias"
+      href: referencias.html
+output:
+    html_document:
+      theme: darkly
+      type: inverse
